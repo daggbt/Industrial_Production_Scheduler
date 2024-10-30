@@ -1,0 +1,13 @@
+name: scheduler
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12  # or your desired version
+  - pip
+  - plotly>=5.0
+  - pandas>=1.3
+  - numpy>=1.20
+  - jupyter  # optional, for notebook usage
+  - pip:
+    - ortools>=9.0  # some packages need to be installed via pip
